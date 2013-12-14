@@ -1,4 +1,4 @@
-FROM nkoguro/gauche:stable
+FROM nkoguro/gauche-stable
 
 RUN apt-get install -y git
 
