@@ -1,6 +1,5 @@
-FROM ubuntu:precise
+FROM ubuntu:trusty
 
-ADD ./precise-unsupported.list /etc/apt/sources.list.d/precise-unsupported.list
 RUN apt-get update
 RUN apt-get build-dep -y gauche-dev
 RUN apt-get install -y curl openssl
