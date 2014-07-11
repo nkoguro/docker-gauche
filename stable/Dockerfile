@@ -15,3 +15,5 @@ RUN cd /build/Gauche-${GAUCHE_STABLE_VERSION}; \
   ./configure && \
   make && \
   make install
+
+RUN rm -Rf /build

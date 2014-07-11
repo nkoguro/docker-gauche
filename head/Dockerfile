@@ -11,3 +11,5 @@ RUN cd /build/Gauche; \
   make && \
   make check && \
   make install
+
+RUN rm -Rf /build
