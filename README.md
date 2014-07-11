@@ -4,5 +4,5 @@ Dockerfiles for Gauche stable and HEAD.
 
 How to build
 ============
-    % docker build -t nkoguro/gauche-stable stable
-    % docker build -t nkoguro/gauche-head head
+    % ./make_stable.sh
+    % ./make_head.sh
