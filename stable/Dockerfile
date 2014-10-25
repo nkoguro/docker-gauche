@@ -14,7 +14,6 @@ RUN cd /build; tar xf /build/Gauche-${GAUCHE_STABLE_VERSION}.tgz
 RUN cd /build/Gauche-${GAUCHE_STABLE_VERSION}; \
   ./configure && \
   make && \
-  make check && \
   make install
 
 RUN rm -Rf /build
