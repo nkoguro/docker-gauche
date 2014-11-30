@@ -9,6 +9,7 @@ RUN cd /build/Gauche; \
   ./DIST gen && \
   ./configure && \
   make && \
+  make check && \
   make install
 
 RUN rm -Rf /build
