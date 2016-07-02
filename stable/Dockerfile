@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu
 
 RUN apt-get update
 RUN apt-get upgrade -y
